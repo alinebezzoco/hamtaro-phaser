@@ -1,0 +1,35 @@
+{
+  "name": "Hamtaro Phaser",
+  "version": "1.0.0",
+  "description": "Jogo do Hamtaro feito com o Phaser se baseando no tutorial do JS Ladies BR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "httpserver --port 8000",
+    "deploy": "surge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezzocoaline/hamtaro-phaser.git"
+  },
+  "keywords": [
+    "jsladies",
+    "tutorial",
+    "hantaro",
+    "javascript",
+    "phaser"
+  ],
+  "author": "Raysa Dutra e Ju Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bezzocoaline/hamtaro-phaser/issues"
+  },
+  "homepage": "https://github.com/bezzocoaline/hamtaro-phaser#readme",
+  "dependencies": {
+    "phaser": "^3.8.0"
+  },
+  "devDependencies": {
+    "httpserver": "^0.3.0",
+    "surge": "^0.20.1"
+  }
+}
